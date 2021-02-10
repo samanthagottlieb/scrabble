@@ -1,6 +1,10 @@
 class Scrabble {
   calculateScore(letter) {
-    return 1;
+    if (letter === "A") {
+      return 1;
+    } else {
+      return 2;
+    }
   }
 }
 
